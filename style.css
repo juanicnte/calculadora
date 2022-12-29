@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body{
+    background-color: antiquewhite;
+    margin: 5rem;
+}
+form{
+    text-align: center;
+}
+#appBg{
+    background-color: #000000;
+    width: 15rem;
+    height: 30rem;
+    border-radius: 40px;
+}
+#ans{
+    text-align: end;
+    font-size: 24px;
+    color: white;
+    background-color: transparent;
+    margin: 2rem 0;
+    width: 90%;
+    height: 9rem;
+    letter-spacing: 2px;
+}#ans::placeholder{
+    color: white;
+    font-size: 24px;
+}
+.buttons{
+    color: white;
+    font-size:20px ;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+    border-radius: 50%;
+    background-color: #313131;
+}
+.buttons:active{
+background-color: grey;
+}
+    
+
+.especial{
+    background-color: #f69a06;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 500;
+}.especial:active{
+    background-color: orange;
+}
+.especial-sec{
+    background-color: #a0a0a0;
+    color: #000000;
+    font-weight: 500;
+}
